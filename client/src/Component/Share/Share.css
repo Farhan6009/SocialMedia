@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.shareWrapper {
+  width: 97%;
+  height: 12rem;
+  border-radius: 0.8rem;
+  background: aliceblue;
+  margin: auto;
+  box-shadow: 0 0 12px rgb(31, 30, 30);
+}
+.shareTop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.shareTop img {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0.5rem;
+  margin-right: 1rem;
+}
+.shareTop input {
+  width: 90%;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+.shareTop input:focus {
+  outline: none;
+}
+hr {
+  margin: 1rem 0.4rem;
+}
+.shareBottom {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+.shareBottom ul {
+  display: flex;
+}
+.shareBottom ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.shareBottom li {
+  padding: 0.7rem;
+}
+.shareBottom li span {
+  margin-left: 0.3rem;
+}
+.btn1 {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: none;
+  background: rgb(51, 143, 51);
+  color: white;
+  cursor: pointer;
+}

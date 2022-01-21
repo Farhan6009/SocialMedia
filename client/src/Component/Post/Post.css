@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.postWrapper {
+  width: 95%;
+  height: auto;
+  margin: 1.2rem auto;
+  border-radius: 0.8rem;
+  background: aliceblue;
+  box-shadow: 0 0 12px rgb(31, 30, 30);
+  display: flex;
+  flex-direction: column;
+}
+.postprofileInfo {
+  width: 97%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.postprofileInfo .profileleft {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+.postprofileInfo .profileleft figure {
+  flex: 0;
+  width: 3.2rem;
+  margin-right: 0.7rem;
+}
+.postprofileInfo .profileleft h5 {
+  margin-left: 0.7rem;
+}
+.profileDesc {
+  margin: 0.5rem 0.2rem;
+  font-size: 0.9rem;
+}
+.profilePost {
+  width: 100%;
+  height: 27rem;
+  display: flex;
+  justify-content: center;
+}
+.profilePost img {
+  width: 98%;
+  height: 96%;
+  align-self: center;
+  object-fit: contain;
+}
+.likes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.2rem 0 0.5rem 0.5rem;
+}
+.likes figure {
+  flex: 0 0;
+  margin: 0 0.2rem;
+  height: rem;
+}
+.likes img {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.likes span {
+  margin-left: 0.2rem;
+}
+.likesLeft {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 70%;
+}

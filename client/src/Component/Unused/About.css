@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about_body {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_container {
+  width: 65%;
+  height: 70%;
+  background: #fff;
+  border-radius: 5px;
+}
+.about1 {
+  background: rgb(172, 202, 110);
+  position: relative;
+}
+.img_div img {
+  width: 25%;
+  height: 90%;
+  position: absolute;
+}
+.profile-head {
+  padding: 10px;
+}
+.profile-head h6 {
+  color: rgb(42, 122, 197);
+}
+.profile-edit-btn {
+  margin-top: 15px;
+  border-radius: 3px;
+  padding: 2px;
+}

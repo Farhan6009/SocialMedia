@@ -1,25 +1,38 @@
-import React, { useState } from 'react'
-import "./App.css"
-import todo from "./Component/images/2666505.png";
-import List from './Component/List';
-import Input from "./Component/Input"
-// import headimg from "../public/images/2666505.png"
-
+import React, { createContext, useReducer } from 'react';
+import "./App.css";
+import { Route, Routes } from 'react-router-dom';
+import Home from './Component/Home/Home';
+import ProfilePage from "./Component/ProfilePage/ProfilePage";
+import Login from './Component/Login/Login';
+import Logout from './Component/Unused/Logout';
+import Register from './Component/Register/Register';
+import Errorpage from './Component/Error/Errorpage';
+import { reducer, initialState } from "./reducer/UserReducer";
+export const Context = createContext();
 const App = () => {
-  const [item, setitem] = useState([]);
-  const [state, setstate] = useState(false)
-  const [id, setid] = useState("")
+  const [state, dispatch] = useReducer(reducer, initialState);
+
   return (
     <>
-      <div className="container">
-        <img src={todo} alt="listimg" className="topimg" />
-        <h3>Add your List Items here</h3>
-        <Input setitem={setitem} item={item} state={state} setstate={setstate} id={id} ></Input>
-        <List setitem={setitem} setstate={setstate} setid={setid} ></List>
-      </div>
+      <Context.Provider value={ {
+        user: state.user,
+        isFetching: state.isFetching,
+        error: state.error,
+        dispatch
+      } }>
+        <Routes>
+          {/* <Route path="/" element={ <Home></Home> }></Route> */ }
+          <Route path="/" element={ state.user ? <Home></Home> : <Register></Register> }></Route>
+          <Route path="/profile/:username" element={ <ProfilePage></ProfilePage> }></Route>
+          <Route path="/login" element={ <Login></Login> }></Route>
+          <Route path="/register" element={ <Register></Register> }></Route>
+          <Route path="/logout" element={ <Logout></Logout> }></Route>
+          <Route path="*" element={ <Errorpage></Errorpage> }></Route>
+        </Routes>
+      </Context.Provider>
     </>
-  )
+  );
 
-}
+};
 
 export default App;

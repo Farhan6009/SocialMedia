@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.feed {
+  flex: 6.8;
+  display: block;
+  padding: 1% 0;
+}

@@ -1,0 +1,103 @@
+export const Profile = [
+    {
+        userId: 1,
+        name: "Farhan1",
+        img: "./images/Profile/istockphoto-1285124274-170667a.jpg",
+        post: "../images/posts/istockphoto-1280155133-170667a.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+
+    },
+    {
+        userId: 2,
+        name: "Farhan2",
+        img: "./images/Profile/istockphoto-1300972573-170667a.jpg",
+        post: "../images/posts/istockphoto-1288271580-170667a.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+    },
+    {
+        userId: 3,
+        name: "Farhan3",
+        img: "./images/Profile/istockphoto-1300972574-170667a.jpg",
+        post: "../images/posts/istockphoto-1297093841-170667a.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+
+    },
+    {
+        userId: 4,
+        name: "Farhan4",
+        img: "./images/Profile/istockphoto-1300972574-170667ag.jpg",
+        post: "../images/posts/istockphoto-1304123919-170667a.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+    },
+    {
+        userId: 5,
+        name: "Farhan5",
+        img: "./images/Profile/istockphoto-1300972574-170667ahj.jpg",
+        post: "../images/posts/photo-1491975474562-1f4e30bc9468.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+    },
+    {
+        userId: 6,
+        name: "Farhan6",
+        img: "./images/Profile/istockphoto-1300972574-170667as.jpg",
+        post: "../images/posts/photo-1551636898-47668aa61de2.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+    },
+    {
+        userId: 7,
+        name: "Farhan7",
+        img: "./images/Profile/istockphoto-1300972574-170667b.jpg",
+        post: "../images/posts/photo-1575300807981-65abff0d63d6.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+    },
+    {
+        userId: 8,
+        name: "Farhan8",
+        img: "./images/Profile/istockphoto-1303539316-170667a.jpg",
+        post: "../images/posts/photo-1592762224962-5f98a3a00621.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+    },
+    {
+        userId: 9,
+        name: "Farhan9",
+        img: "./images/Profile/images.jpg",
+        post: "../images/posts/istockphoto-1280155133-170667a.jpg",
+        desc: "This is my post,Plz like & love it ",
+        date: new Date().toLocaleTimeString(),
+        likes: 32,
+        love: 20,
+        comment: 9
+    },
+];

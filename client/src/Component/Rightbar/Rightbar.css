@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rightbar {
+  flex: 3;
+  border-left: 1px solid grey;
+  position: sticky;
+  top: 6vh;
+}
+.top {
+  display: flex;
+  padding: 1rem 0;
+}
+.top figure {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.6rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0.5rem rgb(199, 141, 141);
+}
+.top img {
+  object-fit: cover;
+}
+.top .line span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.ads img {
+  width: 95%;
+  margin: 0.8rem 0;
+  margin-left: 0.7rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 0.5rem rgb(95, 39, 160);
+}
+.friends_List2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.friends_List2 h1 {
+  font-size: 1rem;
+  padding-left: 0;
+  text-decoration: underline;
+}
+
+.friends_List2 img {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.available {
+  position: relative;
+}
+.online {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.17rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: rgb(50, 226, 65);
+  border: 2px solid #fff;
+}

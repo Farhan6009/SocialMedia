@@ -1,0 +1,101 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100vw;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(82, 134, 212);
+  color: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.link {
+  flex: 2;
+}
+.navlink {
+  width: fit-content;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navlink .navlinkspan {
+  font-size: 1.8rem;
+  padding-left: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
+.search_bar {
+  flex: 5.5;
+  background: #fff;
+  width: 30vw;
+  height: 70%;
+  color: #000;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+.search_bar i {
+  padding: 4px 3px 0 8px;
+}
+.search_bar input {
+  outline: none;
+  border: none;
+  width: 93%;
+  margin: auto;
+}
+.heading {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+}
+.heading h3 {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.icons {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons i {
+  margin: 0 1rem;
+  font-size: 1.3rem;
+  position: relative;
+}
+.icons i::after {
+  content: "1";
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  top: -0.35rem;
+  right: -0.37rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: rgb(226, 50, 50);
+  color: aliceblue;
+}
+figure {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.7rem;
+}
+figure img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  flex: 2.2;
+  height: inherit;
+  overflow-y: scroll;
+  position: sticky;
+  top: 6vh;
+}
+.iconElements {
+  width: 100%;
+  height: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem 1rem;
+}
+.elements {
+  display: flex;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+.elements h2 {
+  margin-left: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.btn {
+  width: 10rem;
+  height: 1.7rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(192, 188, 188);
+  outline: none;
+  border: none;
+}
+.friends_List {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.friends_List img {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
